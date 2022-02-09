@@ -1,0 +1,52 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    font-family: Arial;
+}
+.cabecalho{
+    display: flex;
+    background-color: rgb(118,0,0);
+    font-size: 24px;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.cabecalho a{
+    padding: 0px 50px ;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cabecalho a:hover{
+    background-color: #ffff;
+    color: rgb(110,0,0);
+    padding: 50px 50px;
+
+}
+#barra-pesquisa input{
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+#barra-pesquisa input:focus{
+    outline: none;
+}
+
+#inicio{
+    display: flex;
+    padding: 20px;
+}
+.col{
+    margin: 10px;
+    justify-content: space-around;
+    vertical-align: middle;
+
+}
+.center-text{
+    text-align: center;
+    padding: 80px 40px;
+
+}
+
