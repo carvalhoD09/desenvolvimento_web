@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documento Aula</title>
+    <title>Aula 05</title>
     <link rel="stylesheet" href="estilo.css" type="text/css">
 </head>
 
 <body>
-    <div class="cabecalho">
+    <header class="cabecalho">
         <div id="menu">
             <nav>
                 <a href="#inicio">Inicio</a>
@@ -19,77 +19,122 @@
                 <a href="#contatos">Contatos</a>
             </nav>
         </div>
+        <br>
         <div id="barra-pesquisa">
             <input type="text">
         </div>
-    </div>
+    </header>
     <section id="inicio">
         <div class="col">
-            <img src="bastion.jpg" alt="bastion imortal" width="400">
-        
-        <div class="center-text">
-            <h1>Texto de destaque</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint reiciendis libero nam ipsa iste,
-                eligendi
-                voluptatem veniam accusantium ex velit quam ad rem nemo doloremque at perspiciatis minus eum eaque?
-            </p>               
-        </div>
+            <img src="bastion.jpg" alt="bastion imortal" width="400px">
         </div>
         <div class="col">
-        <input type="button" value="Cadastre-se">
-        <input type="button" value="Saiba mais">
+            <div class="center-text">
+                <h1>Texto de destaque</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, aperiam quisquam? Facere recusandae
+                    doloremque, consectetur odio laborum sequi? Molestias maxime recusandae reiciendis libero delectus
+                    alias odit quaerat dolores doloribus voluptatum.
+
+                </p>
+            </div>
+            <div class="button-inicio">
+                <input id="cadastre" type="button" value="Cadastre-se">
+                <input id="saiba-mais" type="button" value="Saiba mais">
+            </div>
 
         </div>
-        
     </section>
     <section id="sobre-nos">
-        <h1>Sobre nós</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nemo iusto, dolor porro illum voluptatum,
-            ducimus magni sapiente, beatae autem fugit nihil? At eius a suscipit rerum labore libero adipisci.</p>
-        <img src="ferrou.jpg" alt="Treta" width="240" height="180">
+        <div class="col">
+            <div class="center-text">
+                <h1>Sobre nós</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nemo iusto, dolor porro illum
+                    voluptatum,
+                    ducimus magni sapiente, beatae autem fugit nihil? At eius a suscipit rerum labore libero adipisci.
+                </p>
+            </div>
+
+        </div>
+        <div class="col">
+            <img id="redondo" src="ferrou.jpg" alt="Treta" width="350px">
+        </div>
+
 
     </section>
     <section id="equipe">
-        <div class="card-equipe">
-            <img src="equipe.jpg" alt="nossa equipe" width="240" height="180">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum temporibus, ipsam dicta,
-                praesentium
-                quo error sed a, sunt ducimus adipisci ut illo natus corporis officiis odio perspiciatis architecto
-                quam.
-            </p>
+        <h1>Nossa equipe</h1>
+        <div class="col">
+            <div class="card-equipe">
+                <img src="equipe.jpg" alt="nossa equipe">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum temporibus, ipsam dicta,
+                    praesentium
+                    quo error sed a, sunt ducimus adipisci ut illo natus corporis officiis odio perspiciatis architecto
+                    quam.
+                </p>
+            </div>
         </div>
-        <div class="card-equipe">
-            <img src="equipe.jpg" alt="nossa equipe" width="240" height="180">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum temporibus, ipsam dicta,
-                praesentium
-                quo error sed a, sunt ducimus adipisci ut illo natus corporis officiis odio perspiciatis architecto
-                quam.
-            </p>
+        <div class="col">
+            <div class="card-equipe">
+                <img src="equipe.jpg" alt="nossa equipe">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum temporibus, ipsam dicta,
+                    praesentium
+                    quo error sed a, sunt ducimus adipisci ut illo natus corporis officiis odio perspiciatis architecto
+                    quam.
+                </p>
+            </div>
         </div>
-        <div class="card-equipe">
-            <img src="equipe.jpg" alt="nossa equipe" width="240" height="180">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum temporibus, ipsam dicta,
-                praesentium
-                quo error sed a, sunt ducimus adipisci ut illo natus corporis officiis odio perspiciatis architecto
-                quam.
-            </p>
+        <div class="col">
+            <div class="card-equipe">
+                <img src="equipe.jpg" alt="nossa equipe">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum temporibus, ipsam dicta,
+                    praesentium
+                    quo error sed a, sunt ducimus adipisci ut illo natus corporis officiis odio perspiciatis architecto
+                    quam.
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card-equipe">
+                <img src="equipe.jpg" alt="nossa equipe">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum temporibus, ipsam dicta,
+                    praesentium
+                    quo error sed a, sunt ducimus adipisci ut illo natus corporis officiis odio perspiciatis architecto
+                    quam.
+                </p>
+            </div>
         </div>
 
-    </section>
-    <section>
-        <img src="dog.jpg" alt="cachorro" width="240" height="180">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis fugit, vitae quis eligendi
-            sapiente enim itaque dolore at non inventore nobis! Quaerat laborum libero exercitationem distinctio
-            deleniti vel porro!</p>
+
     </section>
     <section id="contatos">
-        <h1>Contatos</h1>
-        <img src="cachorro2_cp.jpg" alt="cachorro" width="240" height="180">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt minus alias odio iure deserunt quidem cum
-            consectetur suscipit veritatis! Fugiat eum necessitatibus omnis qui animi veniam ipsum est, quas quos.</p>
-    </section>
+        <div class="col">
+            <img src="cachorro2_cp.jpg" alt="cachorro" width="350">
+        </div>
+        <div class="col">
+            <div class="center-text">
+                <h1>Contatos</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt minus alias odio iure deserunt
+                    quidem cum
+                    consectetur suscipit veritatis! Fugiat eum necessitatibus omnis qui animi veniam ipsum est, quas
+                    quos.
+                </p>
+            </div>
+        </div>
 
+    </section>
+    <footer>
+        <p>
+            Desenvolvido por Turma Desenvolvimento Web. UFMA 2022.
+        </p>
+    </footer>
 
 </body>
 
 </html>
+<!----<section>
+        <img src="dog.jpg" alt="cachorro" width="240" ">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores perspiciatis fugit, vitae quis eligendi
+            sapiente enim itaque dolore at non inventore nobis! Quaerat laborum libero exercitationem distinctio
+            deleniti vel porro!</p>
+    </section>-->
